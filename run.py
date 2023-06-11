@@ -22,7 +22,7 @@ class GameController(object):
     def startGame(self):
         self.setBackground()
         self.setWindowTitle()
-        self.nodes = NodeGroup("mazetest.txt")
+        self.nodes = NodeGroup("maze1.txt")
         self.pacman = Pacman(self.nodes.getStartTempNode())
 
     def update(self):
